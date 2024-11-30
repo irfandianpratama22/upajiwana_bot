@@ -1,0 +1,278 @@
+{
+  "intents": [
+    {
+      "tag": "sapaan",
+      "patterns": [
+        "Hai", "Halo", "Hallo", "Hay", "Hei", "Hello", "Helo", "Hey", "Hi", "Hola"
+      ],
+      "respons": [
+        "Halo! Selamat datang di Bot CV. Upajiwana Kharisma Tour and Travel. Ada yang bisa saya bantu?",
+        "Hai! Selamat datang di Bot CV. Upajiwana Kharisma Tour and Travel. Ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "lokasi",
+      "patterns": [
+        "lokasi", "alamat", "dimana", "kantor","tempat"
+      ],
+      "respons": [
+        "Kantor kami berlokasi di Jl. Widyadharma, Desa Setinggil, Kartasura, Sukoharjo, Jawa Tengah. Anda bisa melihat lokasi di peta berikut: [Lihat di Google Maps](https://maps.app.goo.gl/3Y9LVHQkNx9u1Rff9).",
+        "Alamat kami di Jl. Widyadharma, Desa Setinggil, Kartasura, Sukoharjo, Jawa Tengah. Klik tautan ini untuk melihat di peta: [Google Maps](https://maps.app.goo.gl/3Y9LVHQkNx9u1Rff9). Silakan datang jika ada keperluan."
+      ]
+    },
+    {
+      "tag": "kontak",
+      "patterns": [
+        "hubungi", "nomor telepon", "WhatsApp", "kontak"
+      ],
+      "respons": [
+        "Kamu bisa menghubungi kami lewat telepon di 0812 2700 2935 atau via WhatsApp di 0812 2700 2935. Kami siap membantu kapan saja!"
+      ]
+    },
+    {
+      "tag": "sosial media",
+      "patterns": [
+        "media sosial", "Instagram", "TikTok", "akun sosial media", "akun Upajiwana"
+      ],
+      "respons": [
+        "Anda bisa mengikuti kami di Instagram https://www.instagram.com/upajiwanatour dan TikTok https://www.tiktok.com/@upajiwanatour untuk update terbaru dan informasi menarik lainnya."
+      ]
+    },
+    {
+      "tag": "wisata",
+      "patterns": [
+        "paket wisata", "liburan", "tour", "paket"
+      ],
+      "respons": [
+        "Kami menawarkan berbagai paket wisata sebagai berikut:\n\n1. Paket Wisata Gunung Kidul\n2. Paket Wisata Semarang\n3. Paket Wisata Bali\n4. Paket Wisata Bromo\n5. Paket Wisata Pacitan\n6. Paket Wisata Dieng\n\nSilakan pilih nomor paket yang ingin Anda ketahui lebih lanjut. Kami juga bisa menyesuaikan permintaan Anda sesuai dengan kebutuhan dan preferensi wisata Anda."
+      ]
+    },
+{
+      "tag": "wisata_gunung_kidul",
+      "patterns": [
+        "gunung kidul",
+        "paket wisata gunung kidul",
+        "paket gunung kidul",
+        "paket detail gunung kidul",
+        "wisata gunung kidul",
+        "1"
+      ],
+      "respons": [
+       "Paket Wisata Gunung Kidul meliputi kunjungan ke tempat-tempat menarik sebagai berikut:\n\n1. Goa Pindul - Pantai Indriati : Rp 250.000 / pax\n2. Tebing Breksi - Hutan Pinus - Pantai Gunung Kidul : Rp 250.000 / pax\n3. Jeep Indrayanti - Pantai Indrayanti - Malioboro : Rp 275.000 / pax\n4. Hutan Pinus - Pantai Cemoro Sewu - Malioboro : Rp 250.000 / pax\n5. De Mangol View - Pantai Gunung Kidul : Rp 240.000 / pax\n6. Studio Alam Gamplong - Pantai Cemoro Sewu : Rp 250.000 / pax\n\nHarga di atas sudah termasuk fasilitas berikut:\n1. Bigbus Seat 50 (2-2)\n2. Snack 1x\n3. Makan 2x\n4. Air Mineral\n5. Tour Leader\n6. Dokumentasi\n7. Banner Foto & P3K\n8. Tiket Masuk Wisata dan Parkir\n9. Tips Crew\n10. Souvenir & Coffee Set Bus\n11. Hiburan\n12. Asuransi\n\nJumlah peserta minimum : 50 pax (orang).\n\n*Destinasi dapat diganti sesuai permintaan. Untuk informasi lebih lanjut dan pemesanan, silakan hubungi kami.*"
+      ],
+      "images": [
+        "https://i.ibb.co.com/xHT6d19/Cokelat-Promosi-Paket-Wisata-Alam-Flyer.png"
+      ]
+    },
+    {
+      "tag": "wisata_semarang",
+      "patterns": [
+        "semarang",
+        "paket wisata semarang",
+        "paket semarang",
+        "wisata semarang",
+        "2"
+      ],
+      "respons": [
+        "Paket Wisata Semarang meliputi kunjungan ke tempat-tempat menarik sebagai berikut:\n\n1. Celosia - Dusun Sumilir - Cimory : Rp 280.000 / pax\n2. Goa Gong - Elengbening - Cimory : Rp 265.000 / pax\n3. Grand Maerakaca - Lawang Sewu - Masjid Agung : Rp 265.000 / pax\n4. Sam Poo Kong - Lawang Sewu - Kota Lama : Rp 260.000 / pax\n5. Kota Lama - Sam Poo Kong - Masjid Agung : Rp 260.000 / pax\n\nHarga di atas sudah termasuk fasilitas berikut:\n1. Bigbus Seat 50 (2-2)\n2. Snack 1x\n3. Makan 2x\n4. Air Mineral\n5. Tour Leader\n6. Dokumentasi\n7. Banner Foto & P3K\n8. Tiket Masuk Wisata dan Parkir\n9. Tips Crew\n10. Souvenir & Coffee Set Bus\n11. Hiburan\n12. Asuransi\n\nJumlah peserta minimum : 50 pax (orang).\n\n*Destinasi dapat diganti sesuai permintaan. Untuk informasi lebih lanjut dan pemesanan, silakan hubungi kami.*"
+      ],
+      "images": [
+        "https://i.ibb.co/mbWJsrf/Wisata-Semarang.png"
+      ]
+    },
+{
+      "tag": "wisata_bali",
+      "patterns": [
+        "bali",
+        "paket wisata bali",
+        "paket bali",
+        "paket detail bali",
+        "wisata bali",
+        "3"
+      ],
+      "respons": [
+        "Paket Wisata Bali meliputi kunjungan ke tempat-tempat menarik sebagai berikut:\n\n1. Pura Ulundanu\n2. Desa Panglipuran\n3. Pantai Pandwa\n4. Tari Barong\n5. Pantai Tanjung Benoa\n6. Tanah Lot\n7. Joger\n8. Krisna\n\nHarga: Rp 1.800.000 / pax\n\nFasilitas yang sudah termasuk:\n\n1. Bigbus Seat 50 (2-2)\n2. Hotel Bintang 3/4\n3. Biaya E Tol\n4. Snack\n5. Souvenir\n6. Makan (12x)\n7. Air Mineral\n8. Tour Leader\n9. Special Dinner & Party\n10. Tiket Masuk Wisata\n11. Tour Guide Bali\n12. Banner Foto\n13. Dokumentasi\n14. Tiket Penyebrangan\n15. Coffee Set in Bus\n16. Hiburan\n17. Tips Crew\n18. Asuransi\n\nJumlah peserta minimum : 50 pax (orang).\n\n*Destinasi dapat diganti sesuai permintaan. Untuk informasi lebih lanjut dan pemesanan, silakan hubungi kami.*"
+      ],
+      "images": [
+        "https://i.ibb.co/FYrMsds/Hijau-dan-Putih-Minimalis-Paket-Tur-Flyer-1.png"
+    
+      ]
+    },
+{
+      "tag": "wisata_bromo",
+      "patterns": [
+        "bromo", 
+        "paket wisata bromo",
+        "paket bromo",
+        "paket detail bromo",
+        "wisata bromo",
+        "4"
+      ],
+      "respons": [
+        "Paket Wisata Bromo menawarkan kunjungan ke destinasi populer, termasuk:\n\n1. Sunrise Bromo\n2. Pasir Berbisik\n3. Bukit Teletubbies\n4. Kawah Bromo\n5. Flora Santera\n6. Selecta\n\nHarga: Rp 1.500.000 per orang\n\nFasilitas yang sudah termasuk:\n\n1. Bigbus dengan 50 kursi (2-2)\n2. Hotel Bintang 3\n3. Snack\n4. Souvenir\n5. Makan sebanyak 6 kali\n6. Air Mineral\n7. Tour Leader\n8. Special Dinner\n9. Tiket Masuk Wisata\n10. Banner Foto\n11. Dokumentasi\n12. Coffee Set di Bus\n13. Hiburan\n14. Tips Crew\n15. Asuransi\n16. Biaya E-Tol\n\nCatatan: Destinasi dapat disesuaikan sesuai permintaan.\n\nJumlah peserta minimum: 50 orang.\n\nUntuk informasi lebih lanjut dan pemesanan, silakan hubungi kami."
+    ],    
+      "images": [
+        "https://i.ibb.co/Dbgc8GC/Wisata-Gunung-Bromo.png"
+    
+      ]
+    },
+{
+      "tag": "wisata_pacitan",
+      "patterns": [ 
+        "pacitan", 
+        "paket wisata pacitan",
+        "paket pacitan",
+        "paket detail pacitan",
+        "wisata pacitan",
+        "5"
+      ],
+      "respons": [
+        "Paket Wisata Pacitan meliputi kunjungan ke tempat-tempat menarik sebagai berikut:\n\n1. Pantai Watuakarang - Pantai Kasap - Susur Sungai Maron : Rp 280.000 / pax\n2. Pantai Klayar - Goa Gong : Rp 250.000 / pax\n3. Beiji Park - Pantai Telengria : Rp 230.000 / pax\n4. Mentari Hills - Pantai Pancerdor : Rp 240.000 / pax\n5. Sentolo Gentong - Pantai Klayar : Rp 240.000 / pax\n\nHarga di atas sudah termasuk fasilitas berikut:\n1. Bigbus Seat 50 (2-2)\n2. Snack (1x)\n3. Makan Prasmanan (2x)\n4. Air Mineral\n5. Tour Leader\n6. Dokumentasi\n7. Tiket Masuk\n8. Tiket Parkir\n9. Coffee Set Bus\n10. Souvenir\n11. Asuransi\n12. Shuttle\n13. Banner Foto\n\nJumlah peserta minimum : 50 pax (orang).\n\nDestinasi dapat diganti sesuai permintaan.\n\n*Untuk informasi lebih lanjut dan pemesanan, silakan hubungi kami.*"
+    ],    
+      "images": [
+        "https://i.ibb.co/CW94Pkp/Wisata-Pacitan.png"
+      ] 
+},
+{
+      "tag": "wisata_dieng",
+      "patterns": [ 
+        "dieng", 
+        "paket wisata dieng",
+        "paket dieng", 
+        "paket detail dieng",
+        "wisata dieng",
+	      "6"
+      ],
+      "respons": [
+        "Paket Wisata Dieng meliputi kunjungan ke tempat-tempat menarik sebagai berikut:\n\n1. Sunrise Sikunir\n2. Kawah Sikidang\n3. Candi Arjuna\n4. Dieng Plateau Theater\n5. Batu Ratapan Angin\n\nHarga paket: Rp 450.000 / pax\n\nHarga di atas sudah termasuk fasilitas berikut:\n1. Bigbus Seat 50 (2-2)\n2. Snack (1x)\n3. Makan Prasmanan (2x)\n4. Air Mineral\n5. Tour Leader\n6. Tour Guide Dieng\n7. Dokumentasi\n8. Tiket Masuk\n9. Tiket Parkir\n10. Coffee Set Bus\n11. Souvenir\n12. Asuransi\n13. Banner Foto\n\nJumlah peserta minimum adalah 50 pax (orang).\n\n*Destinasi dapat diganti sesuai permintaan. Untuk informasi lebih lanjut dan pemesanan, silakan hubungi kami.*"
+      ],
+      "images": [
+        "https://i.ibb.co/DWPfY2b/Wisata-Dieng.png"
+      ]
+    },
+ {
+      "tag": "layanan",
+      "patterns": [
+        "Layanan", "layan","pelayanan","tersedia","tawarkan"
+      ],
+      "respons": [
+        "Kami menyediakan berbagai layanan, seperti:\n\n- Paket wisata\n- Outbound & training\n- Company visit\n- Kuliah kerja lapangan\n- Sewa bus pariwisata\n- Sewa ELF\n- Sewa Hiace\n- Sewa Mobil\n\nKami siap membantu memenuhi kebutuhan perjalanan Anda!"
+      ]
+    },    
+    {
+      "tag": "pemesanan",
+      "patterns": [
+        "B", 
+        "Pesan", 
+        "memesan",
+        "Pemesanan", 
+        "Reservasi", 
+        "Cara pesan", 
+        "pesan tour", 
+        "Booking"
+      ],
+      "respons": [
+        "Untuk pemesanan dan konsultasi, bisa hubungi kami melalui WhatsApp di 0812-2700-2935 atau langsung datang ke kantor kami di Jl. Widyadharma, Desa Setinggil, Kartasura, Sukoharjo, Jawa Tengah. Terima kasih.",
+        "Silakan hubungi WhatsApp kami di 0812-2700-2935 untuk pemesanan dan konsultasi, atau kunjungi kantor kami di Jl. Widyadharma, Desa Setinggil, Kartasura, Sukoharjo, Jawa Tengah. Terima kasih."
+      ]
+    },    
+    {
+      "tag": "pembayaran",
+      "patterns": [
+        "Cara Pembayaran", "Pembayaran", "Transfer", "Kartu kredit", "bayar", "Metode pembayaran","C"
+      ],
+          "respons": [
+            "Berikut ini informasi mengenai pembayaran yang perlu Anda ketahui:\n\n1. DP sebesar 30% dari total pemesanan yang sudah disepakati.\n2. Pembayaran DP akan diproses setelah kami mendapatkan konfirmasi tentang ketersediaan hotel, armada, dan fasilitas lainnya.\n3. Pembayaran dapat dilakukan melalui transfer ke rekening berikut:\n   - Bank BCA :\n   - Bank BNI :\n  - Bank JATENG :\n - a/n Muhammad Ghazi Satriya Wibawa\n4. Bukti transfer dikirimkan lewat WA di nomor 0812 2700 2935.\n5. Setelah pembayaran selesai, tim kami akan memberikan kwitansi yang dapat digunakan sebagai acuan pemesanan di CV. UPAJIWANA KHARISMA TOUR AND TRAVEL."
+          ]
+    },  
+    {
+      "tag": "pembatalan",
+      "patterns": [
+        "D",
+        "pembatalan", 
+        "ketentuan pembatalan",
+        "membatalkan",
+        "batal", 
+        "refund", 
+        "cancel", 
+        "batalkan"
+      ],
+      "respons": [
+        "Berikut ini informasi mengenai pembatalan:\n\n1. Pembatalan lebih dari 15 hari sebelum pelaksanaan, DP tidak dapat dikembalikan, namun dapat digunakan untuk pemesanan di lain waktu.\n2. Pembatalan 15 hari - 7 hari sebelum pelaksanaan, akan dikenakan cancelation fee sebesar 25% dari total biaya.\n3. Pembatalan 6 hari - 4 hari sebelum pelaksanaan, akan dikenakan cancelation fee sebesar 50% dari total biaya.\n4. Pembatalan 3 hari - 2 hari sebelum pelaksanaan, akan dikenakan cancelation fee sebesar 75% dari total biaya.\n5. Pembatalan 1 hari sebelum pelaksanaan, akan dikenakan cancelation fee sebesar 100% dari total biaya.\n6. Pengurangan atau pembatalan peserta akan tetap dihitung sesuai jumlah peserta awal.\n7. Perubahan jadwal atau tanggal dapat dilakukan dengan melihat ketersediaan fasilitas pendukung liburan minimal 7 hari sebelum Hari H."
+      ]
+    },
+    
+    {
+      "tag": "waktu operasional",
+      "patterns": [
+        "Jam buka", "Jam operasional", "Kapan buka", "Waktu buka", "buka"
+      ],
+      "respons": [
+        "Kami buka setiap hari dari pukul 08.00 hingga 18.00 WIB."
+      ]
+    },
+    {
+      "tag": "harga",
+      "patterns":[
+        "Harga","Biaya","Berapa harga","biaya","biaya paket","harga paket"
+      ],
+      "respons": [
+        "Harga bervariasi tergantung paket yang Anda pilih. Untuk informasi lebih lanjut, silakan hubungi kami."
+      ]
+    },
+    {
+      "tag": "ucapan",
+      "patterns": [
+        "Terima kasih", 
+        "Makasih",
+        "Thanks",
+        "Thank",
+        "Thank you"
+      ],
+      "respons": [
+        "Terima kasih sudah menghubungi kami!",
+        "Thank you for contacting us!"
+      ]    
+    },    
+    {
+      "tag": "syarat dan ketentuan",
+      "patterns": [
+        "syarat", 
+        "ketentuan", 
+        "syarat dan ketentuan",
+        "aturan", 
+        "info syarat"
+      ],
+      "respons": [
+        "Berikut kategori syarat dan ketentuan yang tersedia:\n\nA. Ketentuan Umum\nB. Pemesanan Layanan\nC. Metode Pembayaran\nD. Ketentuan Pembatalan\nE. Peraturan Tour\n\nSilakan pilih kategori yang ingin Anda ketahui lebih lanjut."
+      ]    
+    },
+    {
+      "tag": "Peraturan Tour",
+      "patterns": [
+        "E",
+        "Peraturan tour",
+        "Aturan tour",
+        "Syarat tour",
+        "Ketentuan tour"
+      ],
+      "respons": [
+        "Peraturan tour yang perlu diperhatikan:\n\n1. Peserta tidak diperbolehkan membawa barang yang melanggar hukum atau tanpa izin resmi, seperti senjata tajam, senjata api, atau narkoba.\n2. Peserta tidak diperkenankan menggunakan fasilitas tour, seperti mobil dan hotel, untuk kegiatan yang melanggar hukum.\n3. Peserta tidak diperkenankan mengambil properti atau kelengkapan yang tersedia di mobil atau hotel.\n4. Peserta diharapkan membuang sampah pada tempatnya, baik di area publik maupun area wisata.\n5. Peserta dilarang mengambil benda cagar budaya, tanaman, atau hewan yang dilindungi selama tour."
+      ]
+    },    
+    {
+      "tag": "ketentuan umum",
+      "patterns": [
+        "A", 
+        "Ketentuan Umum", 
+        "Syarat umum", 
+        "info Umum", 
+        "syarat dan ketentuan"
+      ],
+      "respons": [
+        "Ketentuan Umum:\n\n- Tour ini bersifat private, tidak digabung dengan peserta lain, kecuali ada kesepakatan sebelumnya.\n- Harga dan layanan berlaku untuk wisatawan domestik dan mancanegara dengan KIMS/KITAS.\n- Anak usia 0-3 tahun gratis, sementara anak usia 3 tahun ke atas dihitung sebagai 1 peserta penuh.\n- Harga yang tercantum sudah mencakup semua fasilitas yang kami sediakan selama perjalanan.\n- Setiap rombongan diwajibkan menunjuk satu orang sebagai koordinator untuk membantu kelancaran komunikasi dan koordinasi.\n- Jika ada peserta dengan kondisi kesehatan khusus atau riwayat penyakit tertentu, harap membawa obat pribadi dan memberikan informasi kepada tim kami demi keselamatan bersama.\n\nUntuk informasi lebih lanjut atau bantuan, silakan hubungi kami."
+      ]
+    }    
+  ]
+}
+
